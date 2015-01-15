@@ -13,19 +13,19 @@ h1, h2, h3{
 
 p{
   font-size: 16px;
-  line-height: 1.5;
 }
 
 #banner {
   background-image: url("images/background.jpg");
-  background-size: cover;
-  padding: 150px 0;
+  padding: 100px 0;
+  line-height: 60px;
+
 }
 
 #banner p {
   font-size: 1.5em;
   color: white;
-  text-shadow: 1px 1px 2px #707070;
+  text-shadow: 2px 2px 20px #707070;
 }
 
 #banner h1 {
@@ -42,6 +42,7 @@ p{
   background-color: white;
   border-bottom: 1px solid #cccccc;
   border-right: 1px solid #cccccc;
+  margin-left: 15px;
 }
 
 .social-list > li > a{
@@ -54,5 +55,11 @@ p{
   color: red;
 }
 
+
+#footer{
+  color: white;
+  background: #373737;
+  padding: 50px 0;
+}
 
 
